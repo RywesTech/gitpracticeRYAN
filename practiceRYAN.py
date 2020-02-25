@@ -1,5 +1,6 @@
-# partner 1 Ryan
+# partner 1 Ryan Westcott
 
+hello world
 
 def getNRandom(n):
 	'''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
