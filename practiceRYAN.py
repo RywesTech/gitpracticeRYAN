@@ -3,9 +3,14 @@
 
 # hello world Ryan
 
+from random import random
+
 def getNRandom(n):
     '''takes in an integer and returns a list of n random integers between 1 and 10, inclusive'''
-    pass
+    rands=[]
+    for i in range(n):
+        rands.append(random())
+    return rands
 
 def multiplyRandom(numbers):
     '''takes in a list of n numbers and returns the product of the numbers'''
@@ -15,8 +20,7 @@ def multiplyRandom(numbers):
     return product
 
 def main():
-    print(multiplyRandom([1,5,3,2,8]))
-#   print(multiplyRandom(getNRandom(10)))
+    print(multiplyRandom(getNRandom(10)))
 
 if __name__ == "__main__":
     main()
